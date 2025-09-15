@@ -1,0 +1,403 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="pt-br"><head>
+<!-- index.html -->
+
+
+
+
+  
+  <meta charset="UTF-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Uniswap v4 tools securyt audit</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="styles.css">
+
+  
+  <meta charset="utf-8">
+
+  
+  <meta name="description" content="uniswap,tools,free,hooks,developers,securyt,audit">
+
+  
+  <meta name="keywords" content="tools,hooks,free,developers,uniswap,v4,securyt,auditing">
+
+  
+  <style type="text/css">
+<!--
+a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->
+  </style>
+  
+  <style type="text/css">
+<!--
+a.gflag {vertical-align:middle;font-size:32px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/32.png);}
+a.gflag img {border:0;}
+a.gflag:hover {background-image:url(//gtranslate.net/flags/32a.png);}
+#goog-gt-tt {display:none !important;}
+.goog-te-banner-frame {display:none !important;}
+.goog-te-menu-value:hover {text-decoration:none !important;}
+body {top:0 !important;}
+#google_translate_element2 {display:none!important;}
+-->
+  </style>
+  
+  <meta charset="UTF-8">
+
+  
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    h1 { color: #333; }
+    .tool { margin-bottom: 30px; }
+    .tool h2 { margin: 0; font-size: 1.3em; color: #2a6ebb; }
+    .tool p { margin: 5px 0; }
+    .tool a { color: #1a0dab; text-decoration: none; }
+    .tool a:hover { text-decoration: underline; }
+  </style>
+  
+  <meta charset="UTF-8">
+
+  
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    h1 { color: #333; }
+    .tool { margin-bottom: 30px; }
+    .tool h2 { margin: 0; font-size: 1.3em; color: #2a6ebb; }
+    .tool p { margin: 5px 0; }
+    .tool a { color: #1a0dab; text-decoration: none; }
+    .tool a:hover { text-decoration: underline; }
+  </style>
+  
+  <meta charset="UTF-8"></head><body style="color: rgb(0, 0, 0); background-color: rgb(0, 63, 0);" alink="#000099" link="#000099" vlink="#990099">
+<header> </header>
+<table style="text-align: left; width: 100%; margin-left: auto; margin-right: auto;" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <th style="vertical-align: middle; background-color: rgb(0, 51, 0); text-align: center; width: 100%;">
+      <dl>
+        <dt><font size="+3"><span style="font-style: italic;"><big><big><big><big><big><big><big><span style="color: white;">Free Analysis/Audit Tools: Uniswap V4 Hooks&nbsp;</span>
+          </big><br>
+          </big></big></big></big></big></big></span></font></dt>
+      </dl>
+      <br>
+      <br>
+      </th>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; text-align: right;"><font size="+3"><br>
+      </font></th>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; text-align: center; background-color: black;">
+      <font size="+3"><a href="https://cripto2029.com/contact.html" target="_blank"><span style="color: white;"><span style="font-style: italic;"></span></span></a><span style="color: white;"><big><big><small><a href="https://cripto2029.com/" target="_blank"><span style="font-style: italic;"><span style="color: white;"></span></span></a><span style="font-style: italic;"></span></small></big></big></span><br>
+      </font></th>
+    </tr>
+    <tr>
+      <th style="vertical-align: top; text-align: center;"><font size="+1"><span style="color: black;"><span style="color: white;">Update: september, 15- 2025</span></span></font><br>
+      </th>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; text-align: center; background-color: rgb(102, 102, 102); width: 100%;"><br>
+      <table style="text-align: left; width: 100%;" border="1" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <th style="vertical-align: top; background-color: rgb(22, 92, 114); text-align: center;"><br>
+            </th>
+            <th style="vertical-align: top; width: 80%; background-color: rgb(57, 114, 114); text-align: center;"><font size="+3"><big>Uniswap V4 Hooks Tools : Security and Auditing : Total
+freewares (free and open source)<br>
+plug and play<br>
+            </big></font> <br>
+            <table style="text-align: left; width: 80%;" border="1" cellpadding="2" cellspacing="2">
+              <tbody>
+                <tr>
+                  <th style="vertical-align: top; background-color: rgb(34, 174, 174);"><span style="color: black;"></span>
+                  <ul>
+                    <li><strong>1-<a href="https://github.com/blocksecteam/hookscan" target="_blank">HOOKSCAN</a></strong>&nbsp;</li>
+                    <li>Main security and audit checkpoints performed
+by the HookScan tool:<br>
+1. Detects public hooks accessible from any address, which could allow
+attacks.<br>
+2. Verifies that callbacks are restricted to the contract itself,
+preventing malicious external calls.<br>
+3. Flags the use of `DELEGATECALL` with non-fixed addresses, which
+could compromise the contract's logic.<br>
+4. Identifies `SELFDESTRUCT` commands, which can be used to delete
+contracts in production.<br>
+5. Ranks the risks found by severity level and detection confidence.<br>
+6. Uses a rule base derived from research on Uniswap v4 and best
+security practices.<br>
+7. Is based on a lightweight version of the Phalcon Inspector framework.<br>
+8. Evaluates contracts written in Solidity (from version 0.8.14).<br>
+9. Generates clear reports highlighting vulnerable code snippets. 10.
+It can be used via the command line or integrated into CI/CD pipelines.<br>
+11. It supports local execution or in a Docker container with compiler
+configuration.<br>
+12. The tool is open-source and can be extended with new detectors.<br>
+13. It helps developers and auditors locate recurring flaws in hooks.<br>
+14. It is especially useful for analyzing contracts that interact with
+Uniswap v4.<br>
+15. It performed effectively in tests with real hooks, with a high
+success rate.<br>
+16. It provides fast, automated detection of structural problems.<br>
+17. It complements manual audits, but does not replace them.<br>
+18. It can be used as an educational tool for reviewing contracts.<br>
+19. It is licensed under the AGPL-3.0 license, encouraging
+collaboration and public improvements.<br>
+20. It is maintained by the BlockSec team, based on up-to-date security
+research.<br>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li><strong><a href="https://github.com/Oliverpt-1/UniGuard" target="_blank">3-UNIGUARD</a></strong><br>
+                    </li>
+                    <li><span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Vulnerability
+Detection</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">UniGuard
+checks for several vulnerability categories:</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Critical</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Reentrancy
+vulnerabilities</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Unauthorized
+access to pool funds</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Logic
+errors that allow manipulation</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">High</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Leading
+opportunities</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Inadequate
+access control</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Insecure
+external calls</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Medium</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Gas
+inefficiencies</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Suboptimal
+hook implementations</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Missing
+validation checks</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Low</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Code
+style issues</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Documentation
+gaps</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">Minor
+optimization opportunities</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">A
+Report Structure</span><br style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174);">
+                      <span style="color: rgb(0, 0, 0); font-family: Arial,sans-serif; font-size: medium; font-style: normal; font-weight: 700; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; white-space: normal; background-color: rgb(34, 174, 174); display: inline ! important; float: none;">UniGuard
+is a specialized developer tool designed to enhance the security and
+reliability of Uniswap V4 hook contracts. Combining AI-powered testing,
+security auditing, and decentralized validation through the Othentic
+stack, UniGuard offers a comprehensive solution for developers working
+with Uniswap V4
+hooks. </span><br>
+                    </li>
+                  </ul>
+                  <ul>
+                    <li><strong><a href="https://github.com/0xMob100/sporalyzer" target="_blank">4-SPORALYZER</a></strong>
+                      <br>
+The
+Sporalyzer project is an automated auditing tool. It analyzes hook
+behavior for risks and malicious patterns. Below are its main functions
+and why it's essential for hook developers:<br>
+1. Static Bytecode Analysis: Examines hook bytecode directly, without
+needing the source code.<br>
+2. Malicious Pattern Identification: Detects suspicious behavior such
+as reentrancy/unnecessary state writing and token manipulation.<br>
+3. Input/Output Verification: Assesses whether the hook correctly
+handles expected token flows.<br>
+4. Gas Consumption Analysis: Detects hooks that attempt to exploit or
+artificially inflate gas consumption.<br>
+5. Storage Access Inspection: Checks whether the hook is reading or
+writing to critical memory areas.<br>
+6. Permission Extraction and Visualization: Shows which functions are
+called and with what permissions. 7. Honeypot Detection: Identifies
+hooks designed to maliciously lure and exploit users.<br>
+8. Support for Hooks Without Source Code: Useful for analyzing hooks
+already deployed on the network, even without access to the source code.<br>
+9. Automated Reports: Generates easy-to-understand reports with
+security alerts.<br>
+10. Easy-to-Use CLI Tool: Allows for quick and direct use in the
+terminal.<br>
+11. Support for Real Deployments: Can be used to verify hooks already
+active on mainnet/testnets.<br>
+12. Malformed Access Control Detection: Points out access control flaws
+within hooks.<br>
+13. Use of Specialized Heuristics in Uniswap V4: The analysis engine is
+tuned specifically for the Uniswap V4 hook standard.<br>
+14. Execution Simulation: Verifies how the hook behaves in different
+calling contexts. 15. Detailed Technical Documentation: Helps devs
+understand how to use the tool and interpret the results.<br>
+16. Open Source Contribution: Allows the community to audit, expand,
+and improve the project.<br>
+17. Rapid Security Review: Useful for pre-deploy hook reviews.<br>
+18. Assistance with Best Practices Compliance: Helps devs follow
+standards recommended by the Uniswap community.<br>
+19. Attack Vector Reduction: Allows you to detect issues before they
+are exploited.<br>
+20. Essential Hooks for Devs: Because they make the audit process
+faster, more accurate, and more secure, reducing risks in production.<br>
+                    </li>
+                  </ul>
+                  
+                  <ul>
+                    <li><strong></strong><a href="https://github.com/ConsenSysDiligence/diligence-fuzzing" target="_blank">5-DILIGENCE FUZZING</a><br>
+Diligence Fuzzing: This is an automated fuzzing tool for Solidity smart
+contracts. Its main function is to discover bugs, logical flaws, and
+unexpected vulnerabilities by generating millions of random or
+semi-directed executions of contracts. For Uniswap V4 Hooks developers,
+it is especially valuable for these 20 reasons:<br>
+1. Automated Testing with Random Inputs: Generates diverse inputs to
+detect unexpected behavior in hooks.<br>
+2. Logical Flaw Discovery: Identifies race conditions, reentrancy, and
+other issues that go unnoticed in manual testing.<br>
+3. Broad Code Coverage: Executes multiple code paths, including rare
+paths that developers may not reach with standard tests.<br>
+4. Invariant Verification: Tests whether certain logical properties
+hold true during contract execution. 5. Decimal Precision Failure
+Detection: Useful for hooks that handle tokens with different decimals.<br>
+6. Integration with Echidna and MythX: Allows for combined use with
+other security tools.<br>
+7. Identification of Failed Assertions: Reveals where code breaks when
+faced with unexpected inputs.<br>
+8. Edge Case Exploration: Generates extreme or unusual values to verify
+the robustness of the hook.<br>
+9. Detailed Report Generation: Pinpoints exactly where and how failures
+occurred.<br>
+10. Based on SMT Solvers: Uses formal techniques to generate
+intelligent tests, guided by symbolic logic.<br>
+11. Focus on Solidity: Designed specifically for smart contracts,
+making it ideal for Uniswap hooks.<br>
+12. Automated Attack Simulation: Tests the hook's resilience against
+known attack patterns. 13. Overflow/Underflow Detection: Even with the
+use of `SafeMath`, problems can occur in custom logic.<br>
+14. Test Case Reduction: Minimizes inputs to facilitate understanding
+of the cause of bugs.<br>
+15. Assists in Safe Refactorings: Ensures that code changes don't break
+existing functionality.<br>
+16. CI/CD Integration: Can be incorporated into deployment pipelines to
+ensure continuous security.<br>
+17. Easy to Configure with Brownie/Hardhat: Compatible with modern hook
+development environments.<br>
+18. Complete Documentation and ConsenSys Support: Tool maintained by
+one of the largest blockchain companies.<br>
+19. Zero-Day Vulnerability Prevention: Detects flaws before they are
+exploited in the real world.<br>
+20. Essential for Hooks Devs: Because it ensures that the contract's
+behavior is safe, predictable, and stress-tested, critical in the
+sensitive context of decentralized finance.<br>
+                    </li>
+                    <li><br>
+                      <strong></strong></li>
+                    <li><strong></strong><a href="https://github.com/eth-sri/securify" target="_blank">6-SECURIFY</a><br>
+Securify2: This is a second-generation static analysis tool for
+Solidity smart contracts. Designed for greater scalability and
+accuracy, it is extremely useful for those developing Uniswap V4 Hooks
+that require rigorous security. Below are its 20 main features and
+reasons why it is essential for hook developers:<br>
+1. Formal Semantics-Based Static Analysis: Verifies contracts without
+executing them, using rigorous formal logic to detect bugs.<br>
+2. Accuracy and Fewer False Positives: Improves over the original
+Securify, with more reliable diagnostics.<br>
+3. Detects Violated or Secured Security Standards (e.g., reentrancy,
+insecure use of external calls, incorrect visibility).<br>
+4. Coverage of Common DeFi Industry Standards: Adapted to typical
+practices and risks of hook contracts and pools.<br>
+5. Detailed and Classified Reports: Indicates whether each property is
+secure, violated, or inconclusive. 6. Access Control Check: Assesses
+whether critical functions are properly protected.<br>
+7. Ether and Token Manipulation Check: Crucial for hooks that receive,
+send, or interact with assets.<br>
+8. Reentrancy and Unsafe Loop Identification: Helps protect hooks
+against chained execution attacks.<br>
+9. Function Visibility Check: Detects flaws in `public`, `external`,
+`internal`, or `private`.<br>
+10. Insecure Storage Write Detection: Identify variables that can be
+improperly manipulated.<br>
+11. Dependency Check in `msg.sender` and `tx.origin`: Alerts against
+common authentication errors.<br>
+12. Solidity 0.8+ Support: Compatible with modern versions, such as
+those used in Uniswap V4. 13. Support for Complex and Modularized
+Contracts. Ideal for hooks with dependencies and internal calls.<br>
+14. CLI Tool for CI/CD Integration. Can be automated in security
+deployment flows.<br>
+15. Academically and Formally Validated. Founded on university research
+with strong theoretical validation.<br>
+16. Shorter Analysis Time with High Accuracy. Runs analyses quickly
+even on large contracts.<br>
+17. Warns about failures in `require()` and `assert()`. Detects logic
+errors that can cause crashes or exploits.<br>
+18. Open Source and Transparent. Allows independent audits and
+customizations by the community.<br>
+19. Clear Technical Documentation. Facilitates use by devs, auditors,
+and security teams.<br>
+20. Essential for Uniswap V4 Hook Devs. Ensures the hook is secure,
+robust, and resistant to vulnerabilities before touching a penny in
+liquidity pools.<br><br>
+</li>
+                  </ul>
+                  <br>
+                  </th>
+                </tr>
+              </tbody>
+            </table>
+            <br>
+            <br>
+            </th>
+            <th style="vertical-align: top; background-color: rgb(23, 96, 121); text-align: center;"><br>
+            </th>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <br>
+      <br>
+      </th>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; background-color: rgb(51, 153, 153); text-align: center;"><font size="+3"><br>
+      </font></th>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; text-align: center;"><br>
+      </th>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <th style="vertical-align: top; text-align: center; background-color: rgb(32, 129, 161);"><br>
+      </th>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+    <tr>
+      <th style="vertical-align: middle; text-align: center; background-color: black;"><span style="color: white;"><font size="+3"><span style="color: white;">Updated
+on: <span style="color: white;">september - 15, 2025</span></span></font></span><br>
+      <big><big><span style="color: white;"><big><big><big><a href="https://cripto2029.com/securyt-hooks.html"><span style="color: white;"></span></a></big></big></big></span></big></big><big><big><span style="color: white;"><big><big><big><a href="https://cripto2029.com/" target="_blank"><span style="color: white;"></span></a></big></big></big></span></big></big><br>
+      </th>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+
+<br>
+
+</body></html>
